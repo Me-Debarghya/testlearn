@@ -1,16 +1,23 @@
 {
-  "dependencies": {
-    "express": "^4.19.2"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
   "name": "simple-express-app",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "devDependencies": {},
-  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Me-Debarghya/testlearn.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Me-Debarghya/testlearn/issues"
+  },
+  "homepage": "https://github.com/Me-Debarghya/testlearn#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
