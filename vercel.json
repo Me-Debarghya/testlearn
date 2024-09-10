@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ./database/",
+    "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':!database/'",
     "builds": [
         {
             "src": "server.js",
