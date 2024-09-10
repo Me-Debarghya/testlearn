@@ -2,6 +2,9 @@
     "version": 2,
     "builds": [
         {
+            "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ./database/"
+        },
+        {
             "src": "server.js",
             "use": "@vercel/node",
             "config": {

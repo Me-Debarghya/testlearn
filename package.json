@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Me-Debarghya/testlearn#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "terser": "^5.31.6",
+    "uglify-js": "^3.19.3"
   }
 }
