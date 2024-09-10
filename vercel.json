@@ -1,7 +1,7 @@
 {
     "version": 2,
+    "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ./database/",
     "builds": [
-      
         {
             "src": "server.js",
             "use": "@vercel/node",
@@ -9,9 +9,7 @@
                 "includeFiles": [
                     "dist/**"
                 ]
-            },
-            "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ./database/"
-
+            }
         }
     ],
     "routes": [
